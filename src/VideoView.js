@@ -11,24 +11,40 @@ class VideoView extends Component{
 		super(props);
 	}
 	render(){
-		var divStyle = {
+		var videoStyle = {
   background: "#eee",
-  padding: "20px",
   margin: "20px",
-  width: "60%"
+  
 };
+var divStyle = {
+  width: "70%"
+};
+var backStyle = {
+      backgroundColor: "#eeeeee"
+    };
+var titleStyle = {
+  marginTop : "-28px"
+};
+var navStyle = {
+    backgroundColor: "#3a3f41"
+  };
 	var videosView =     
-<div>
-<center><h1>Video</h1></center>
-	<center>
-
+<div style={titleStyle}>
+<nav style={navStyle}>
+<div class="navbar-wrapper container" >
+<center><h3> Video Views</h3></center>  
+</div>
+</nav>	<center>
+<div style={divStyle}>
 	<Video autoPlay loop muted
             controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
             poster="http://sourceposter.jpg"
-            style={divStyle}
+            style={videoStyle}
             >
             <source src="https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4" type="video/mp4"/>
-        </Video></center>
+        </Video>
+</div>
+        </center>
 </div>
         ;	
 		    return (videosView);

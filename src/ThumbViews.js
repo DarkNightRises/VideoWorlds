@@ -1,30 +1,60 @@
 import React, { Component } from 'react';
 import {browserHistory} from 'react-router';
-import image from './L.png';
-import index from './index';
-import { hashHistory } from 'react-router';
-import vttEn from './sintel-en.vtt';
-import vttEs from './sintel-es.vtt';
 
+import index from './index';
+import image from './L.png';
+import { hashHistory } from 'react-router';
 class ThumbViews extends Component{
 	
 	constructor(props){
 		super(props);
 		this.imageSelected = this.imageSelected.bind(this);
+		this.hoveredOver = this.hoveredOver.bind(this);
 	}
 	imageSelected(){
 		console.log('Image selected');
 		hashHistory.push('/video');
 	}
+	hoveredOver(){
+		console.log('Image Hovered');
+	}
 	render(){
 var divStyle = {
-  background: "#eee",
-  padding: "20px",
-  margin: "20px",
-  width: "300px"
+  hover: {cursor:'pointer'}
+}; 
+var cardPadding = {
+	padding: "10px"
 };
+var titleStyle = {
+	marginTop: "0px"
+};
+var imageStyle = {
+	width : "300px",
+	height: "200px"
+}
+var cardStyle = {
+	width : "345px",
+	height: "300px"
+
+}
+var thumbViews=
+
+    <div className="row"  >
+        <div className="col s12 m7" style={cardStyle}>
+          <div className="card" >
+          <div className="card-image" >
+          <div style={cardPadding}>
+              <img src={this.props.image} onClick={this.imageSelected} onMouseOver={this.hoveredOver} style={imageStyle} />
+              <span className="cardtitle" style={titleStyle}>Shrofile Rocks</span>
+           </div>
+            </div>
+
+        </div>
+      </div>
+</div>;
+
 var thumb = <img src={image} onClick={this.imageSelected} style={divStyle}/>;
-		return thumb;
+		return thumbViews;
 	}
 }
 export default ThumbViews;
