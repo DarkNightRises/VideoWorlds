@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import {browserHistory} from 'react-router';
 
-import index from './index';
-import image from './L.png';
+
 import { hashHistory } from 'react-router';
 class ThumbViews extends Component{
 	
@@ -53,7 +52,6 @@ var thumbViews=
       </div>
 </div>;
 
-var thumb = <img src={image} onClick={this.imageSelected} style={divStyle}/>;
 		return thumbViews;
 	}
 }

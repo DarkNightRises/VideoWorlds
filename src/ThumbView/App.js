@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import './CSS/App.css';
 import {Grid, Row, Column} from 'react-cellblock';
 import ThumbViews from './ThumbViews';
-import image from './L.png';
-import imagenext from './anime.png';
-import imagethird from './animenew.jpg';
+import image from './Images/L.png';
+import imagenext from './Images/anime.png';
+import imagethird from './Images/animenew.jpg';
 class App extends Component {
   constructor(props){
     super(props);

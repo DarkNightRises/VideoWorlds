@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import VideoView from './VideoView';
+import App from './ThumbView/App';
+import VideoView from './VideoView/VideoView';
 import './index.css';
 
 import {Router,Route, hashHistory, IndexLink} from 'react-router';
