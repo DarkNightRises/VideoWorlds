@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './ThumbView/App';
 import VideoView from './VideoView/VideoView';
-import './index.css';
+import './CSS/index.css';
 
 import {Router,Route, hashHistory, IndexLink} from 'react-router';
 import {createMemoryHistory} from 'history';
