@@ -5,10 +5,10 @@ class Header extends Component{
 		super(props);
 	}
 	render(){
-		return  <div><div className="header">{this.props.items}
+		return <div className="headers">{this.props.items}{this.props.loginPanel}
 		</div>
-		<br />
-        <div className="content">Content things go here.</div></div>;
+		
+       
 	}
 }
 

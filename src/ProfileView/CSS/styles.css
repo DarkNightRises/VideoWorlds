@@ -1,3 +1,101 @@
-.headerlogo{
-	height:50px;
+.headerlogo {
+	height:24px;
+	padding-left: 100px;
+ 	margin: 13px 0px 12px 0px;
+	float: left;
+	width: 25%;
+	padding-right: 15px;
+	max-height: 24px;
+	display: block;
+	vertical-align: middle;
+
+}
+
+.headersearch {
+	float: left;
+		max-width: 400px;
+		width: 100%;
+		margin: 10px auto 10px auto;
+		position: relative;
+}
+.searchInput {
+    width: 100%;
+    margin: 0 auto;
+    padding: 6px 50px 6px 15px;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    font-size: 85%;
+    line-height: 16px;
+    border-width: 1px;
+    border-color: rgba(255,255,255,0.05);
+    border-bottom-color: rgba(255,255,255,0.1);
+    border-style: solid;
+    border-radius: 2px;
+    box-shadow: none;
+    outline: none;
+}
+
+.loginDiv {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    float: right;
+    text-align: right;
+    position: relative;
+}
+.messageIcon, .notificationIcon {
+	font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    position: relative;
+    top: 2px;
+}
+.messageIconSpan, .notificationIconSpan {
+	  position: absolute;
+    top: 11px;
+    left: 50%;
+    display: block;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #f2f2f2;
+    background: rgba(0,0,0,0.8);
+    font-weight: 400;
+    padding: 3px 4px 2px 4px;
+    width: auto;
+    border-radius: 2px;
+    z-index: 99;
+}
+.message, .notification, .con-login {
+ width: auto;
+    height: 50px;
+    background: #ea212e;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    float: right;
+    padding: 15px 15px 11px 15px;
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.con-login{
+    padding-right: 0px;
+}
+.con-login-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: -6px;
+}
+.searchButton {
+    width: 100%;
+    font-size: 20px;
+    color: rgba(255,255,255,0.3);
+    background: transparent;
+    border: none;
+    padding: 5px 10px;
+    box-shadow: none;
+    outline: none;
 }
