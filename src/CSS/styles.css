@@ -1,0 +1,12 @@
+.header {
+    position: fixed;
+    top: 0;
+    height:50px;
+    width: 100%;
+    z-index: 500;
+    background-color: #ea212e;
+}
+.content {
+	margin-top: 50px;
+}
+

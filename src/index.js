@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './ThumbView/App';
 import VideoView from './VideoView/VideoView';
+import Profile from './ProfileView/Profile';
 import './CSS/index.css';
 
 import {Router,Route, hashHistory, IndexLink} from 'react-router';
@@ -16,7 +17,8 @@ const appHistory = createMemoryHistory();
 ReactDOM.render(
 <div>
 <Router history={hashHistory}>
-    <Route path="/" component={App}/>
+
+    <Route path="/" component={Profile}/>
 <Route  path="/video" component={VideoView} /> 
 </Router>
 </div>,document.getElementById('root')
