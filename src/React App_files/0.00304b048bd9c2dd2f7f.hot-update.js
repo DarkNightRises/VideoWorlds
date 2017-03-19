@@ -1,0 +1,22 @@
+webpackHotUpdate(0,{
+
+/***/ 548:
+/*!******************************************************************************************!*\
+  !*** ./~/css-loader?importLoaders=1!./~/postcss-loader!./src/ProfileView/CSS/styles.css ***!
+  \******************************************************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(/*! ../../../~/css-loader/lib/css-base.js */ 267)();
+	// imports
+
+
+	// module
+	exports.push([module.id, ".headerlogo {\n\theight:24px;\n\tpadding-left: 100px;\n \tmargin: 13px 0px 12px 0px;\n\tfloat: left;\n\twidth: 25%;\n\tpadding-right: 15px;\n\tmax-height: 24px;\n\tdisplay: block;\n\tvertical-align: middle;\n\n}\n\n.headersearch {\n\tfloat: left;\n\t\tmax-width: 400px;\n\t\twidth: 100%;\n\t\tmargin: 10px auto 10px auto;\n\t\tposition: relative;\n}\n.searchInput {\n    width: 100%;\n    margin: 0 auto;\n    padding: 6px 50px 6px 15px;\n    background: rgba(255,255,255,0.1);\n    color: #fff;\n    font-size: 85%;\n    line-height: 16px;\n    border-width: 1px;\n    border-color: rgba(255,255,255,0.05);\n    border-bottom-color: rgba(255,255,255,0.1);\n    border-style: solid;\n    border-radius: 2px;\n    box-shadow: none;\n    outline: none;\n}\n\n.loginDiv {\n    width: 100%;\n    margin: 0px 0px 0px 0px;\n    float: right;\n    text-align: right;\n    position: relative;\n}\n.messageIcon, .notificationIcon {\n\tfont-size: 18px;\n    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);\n    position: relative;\n    top: 2px;\n}\n.messageIconSpan, .notificationIconSpan {\n\t  position: absolute;\n    top: 11px;\n    left: 50%;\n    display: block;\n    font-size: 10px;\n    line-height: 10px;\n    text-align: center;\n    color: #f2f2f2;\n    background: rgba(0,0,0,0.8);\n    font-weight: 400;\n    padding: 3px 4px 2px 4px;\n    width: auto;\n    border-radius: 2px;\n    z-index: 99;\n}\n.message, .notification, .con-login {\n width: auto;\n    height: 50px;\n    background: #ea212e;\n    font-size: 12px;\n    line-height: 18px;\n    color: #fff;\n    float: right;\n    padding: 15px 15px 11px 15px;\n    margin-left: 10px;\n    position: relative;\n    cursor: pointer;\n}\n.con-login{\n    padding-right: 0px;\n}\n.con-login-image {\n    width: 32px;\n    height: 32px;\n    border-radius: 100%;\n    display: inline-block;\n    margin-right: 5px;\n    position: relative;\n    top: -6px;\n}\n.searchButton {\n    width: 100%;\n    font-size: 20px;\n    color: rgba(255,255,255,0.3);\n    background: transparent;\n    border: none;\n    padding: 5px 10px;\n    box-shadow: none;\n    outline: none;\n}\n\n.videoDiv {\n    width: 100%;\n    height: 100%;\n    margin-top: 50px;\n    position: relative;\n    display: block;\n}\n.introvideo {\n        width: 100%;\n    height: 260px;\n    background: #fff;\n    overflow: hidden;\n    position: relative;\n}\n.videoView {\n    position: absolute;\n    top: 10%;\n    left: 10%;\n    min-width: 100%;\n    width: 100%;\n    height: auto;\n    z-index: 8;\n    -webkit-transform: translate(-10%, -10%);\n        -ms-transform: translate(-10%, -10%);\n            transform: translate(-10%, -10%);\n}\n.videoOverlay {\n   position: absolute;\n    height: 100%;\n    width: 100%;\n    bottom: 0;\n    top: 0;\n    z-index: 9;\n    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0.0)), color-stop(25%, rgba(0,0,0,0.0)), color-stop(50%, rgba(0,0,0,0)), color-stop(75%, rgba(0,0,0,0.3)),color-stop(100%, rgba(0,0,0,0.6)));\n    background: -webkit-linear-gradient(top, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.0) 25%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0.6) 100%);\n    background: -webkit-linear-gradient(top, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.0) 25%, rgba(0,0,0,0.0) 50%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0.6) 100%);\n    background: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.0) 25%, rgba(0,0,0,0.0) 50%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0.6) 100%);\n    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0);\n}", ""]);
+
+	// exports
+
+
+/***/ }
+
+})
+//# sourceMappingURL=0.00304b048bd9c2dd2f7f.hot-update.js.map

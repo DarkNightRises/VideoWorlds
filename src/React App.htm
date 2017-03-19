@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://localhost:3000/#/?_k=u5ne14 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="http://localhost:3000/favicon.ico">
+     <!--Import Google Icon Font-->
+    <title>React App</title>
+    <link rel="stylesheet" href="./React App_files/bootstrap.min.css">
+<link rel="stylesheet" href="./React App_files/font-awesome.min.css">
+    <link href="./React App_files/css" rel="stylesheet" type="text/css">
+    <script src="./React App_files/materialize.min.js">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+<!--
+      Notice the use of  in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+  <style type="text/css">.App {
+  text-align: center;
+}
+
+.App-logo {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+          animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+</style><style type="text/css">._13nyE {
+    position: relative;
+    font-family: Helvetica;
+    font-size: 11px;
+    background-color: #000;
+}
+
+._2jFFg {
+    width: 100%;
+    height: 100%;
+}
+
+._1CiqE {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 34px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+._2kjv6 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+
+._13nyE:hover ._1CiqE {
+    opacity: 1;
+}
+._2SX_- {
+    padding: 0 10px 0 10px;
+    line-height: 35px;
+    color: #fff;
+}
+
+._3uAju {
+    margin-right: 5px;
+}
+
+.H1qXG {
+    margin-left: 5px;
+    color: #919191;
+}
+._3Khwp {
+    position: relative;
+}
+
+._1wNv0 {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    right: 5px;
+    height: 4px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background-color: #3e3e3e;
+}
+
+._2-l5W,
+._2Ptlj,
+._3jwKG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+._2-l5W {
+    background-color: #5a5a5a;
+}
+
+._2Ptlj {
+    background: #fff;
+}
+
+._3jwKG {
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.VAbrR {
+    position: relative;
+}
+
+.VAbrR:hover {
+    background-color: #000;
+}
+
+.nMY9Z {
+    width: 34px;
+    height: 34px;
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    cursor: pointer;
+}
+
+.nMY9Z:focus {
+    outline: 0;
+}
+
+._1ZgIy {
+    padding: 7px;
+}
+
+._7G8Qn {
+    display: none;
+    position: absolute;
+    right: 5px;
+    bottom: 100%;
+    left: 5px;
+    height: 56px;
+    background-color: #000;
+}
+
+.VAbrR:hover ._7G8Qn {
+    display: block;
+}
+
+._2P5K6 {
+    position: absolute;
+    top: 8px;
+    bottom: 8px;
+    left: 50%;
+    width: 4px;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background-color: #3e3e3e;
+}
+
+._3qVlQ,
+._25hRb {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+._3qVlQ {
+    background-color: #fff;
+}
+
+._25hRb {
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    -webkit-appearance: slider-vertical;
+    cursor: pointer;
+}._3mIbD {
+    position: relative;
+}
+
+._3mIbD:hover {
+    background-color: #000;
+}
+
+._1q-h8 {
+    width: 34px;
+    height: 34px;
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    cursor: pointer;
+}
+
+._1q-h8:focus {
+    outline: 0;
+}
+
+._1ems8 {
+    padding: 5px;
+}
+
+.H9JLp {
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    display: none;
+    background-color: rgba(0,0,0,0.7);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+._3mIbD:hover .H9JLp {
+    display: block;
+}
+
+._3aoUt {
+    padding: 7px;
+    cursor: pointer;
+}
+
+.EXfRw,
+._3aoUt:hover {
+    background: #000;
+}
+
+.EXfRw {
+    text-decoration: underline;
+}
+._1OGv- {}
+
+._1OGv-:hover {
+    background-color: #000;
+}
+
+._1Sg8F {
+    width: 34px;
+    height: 34px;
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    cursor: pointer;
+}
+
+._1Sg8F:focus {
+    outline: 0;
+}
+
+._3YoOS {
+    padding: 5px;
+}
+._2q4KH {}
+
+._2q4KH:hover {
+    background-color: #000;
+}
+
+._2uqwv {
+    width: 34px;
+    height: 34px;
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    cursor: pointer;
+}
+
+._2uqwv:focus {
+    outline: 0;
+}
+
+._2h8Vs {
+    padding: 5px;
+}
+.ve_Cq {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+}
+
+._9W0_s {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: -30px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+}
+
+.GUqzE {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 50%;
+    margin-left: -20px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+</style><style type="text/css">.headers {
+    position: fixed;
+    top: 0;
+    height:50px;
+    width: 100%;
+    z-index: 500;
+    background-color: #ea212e;
+}
+.content {
+	margin-top: 50px;
+}
+
+</style><style type="text/css">.headerlogo {
+	height:24px;
+	padding-left: 100px;
+ 	margin: 13px 0px 12px 0px;
+	float: left;
+	width: 25%;
+	padding-right: 15px;
+	max-height: 24px;
+	display: block;
+	vertical-align: middle;
+
+}
+
+.headersearch {
+	float: left;
+		max-width: 400px;
+		width: 100%;
+		margin: 10px auto 10px auto;
+		position: relative;
+}
+.searchInput {
+    width: 100%;
+    margin: 0 auto;
+    padding: 6px 50px 6px 15px;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    font-size: 85%;
+    line-height: 16px;
+    border-width: 1px;
+    border-color: rgba(255,255,255,0.05);
+    border-bottom-color: rgba(255,255,255,0.1);
+    border-style: solid;
+    border-radius: 2px;
+    box-shadow: none;
+    outline: none;
+}
+
+.loginDiv {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    float: right;
+    text-align: right;
+    position: relative;
+}
+.messageIcon, .notificationIcon {
+	font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    position: relative;
+    top: 2px;
+}
+.messageIconSpan, .notificationIconSpan {
+	  position: absolute;
+    top: 11px;
+    left: 50%;
+    display: block;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #f2f2f2;
+    background: rgba(0,0,0,0.8);
+    font-weight: 400;
+    padding: 3px 4px 2px 4px;
+    width: auto;
+    border-radius: 2px;
+    z-index: 99;
+}
+.message, .notification, .con-login {
+ width: auto;
+    height: 50px;
+    background: #ea212e;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    float: right;
+    padding: 15px 15px 11px 15px;
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.con-login{
+    padding-right: 0px;
+}
+.con-login-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: -6px;
+}
+.searchButton {
+    width: 100%;
+    font-size: 20px;
+    color: rgba(255,255,255,0.3);
+    background: transparent;
+    border: none;
+    padding: 5px 10px;
+    box-shadow: none;
+    outline: none;
+}
+
+.videoDiv {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    position: relative;
+    display: block;
+}
+.introvideo {
+        width: 100%;
+    height: 260px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.videoView {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    z-index: 8;
+    -webkit-transform: translate(-10%, -10%);
+        -ms-transform: translate(-10%, -10%);
+            transform: translate(-10%, -10%);
+}
+.videoOverlay {
+   position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    z-index: 9;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0.0)), color-stop(25%, rgba(0,0,0,0.0)), color-stop(50%, rgba(0,0,0,0)), color-stop(75%, rgba(0,0,0,0.3)),color-stop(100%, rgba(0,0,0,0.6)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.0) 25%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0.6) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.0) 25%, rgba(0,0,0,0.0) 50%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0.6) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.0) 25%, rgba(0,0,0,0.0) 50%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0);
+}</style><style type="text/css">body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+</style><script type="text/javascript" charset="utf-8" src="./React App_files/0.456d6c7ca6c746bffe29.hot-update.js"></script><script type="text/javascript" charset="utf-8" src="./React App_files/0.00304b048bd9c2dd2f7f.hot-update.js"></script></head>
+  <body>
+    <div id="root"><div data-reactroot=""><div><div class="headers"><div class="header"><div><img class="headerlogo" src="./React App_files/shrofile-logo-white.49fee2bf.png"></div><div class="searchDiv col-xs-5 col-sm-5 col-md-5 col-lg-6 hidden-xs"><form class="headersearch input-group"><input type="text" name="Search" class="searchInput" id="search" placeholder="Search..."><span class="input-group-btn"><button type="button" class="searchButton"><i class="fa fa-search"></i></button></span></form></div></div><div class="col-xs-8 col-sm-4 col-md-4 col-lg-3"><div><div class="message"><i class="fa fa-envelope-o messageIcon"></i><span class="messageIconSpan">18</span></div><div class="notification"><i class="fa fa-bell-o notificationIcon"></i><span class="notificationIconSpan">24</span></div><div class="con-login"><img src="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAPAAD/4QMxaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjUtYzAyMSA3OS4xNTU3NzIsIDIwMTQvMDEvMTMtMTk6NDQ6MDAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE0IChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjYzMkQwNUM2RDgxQzExRTU5RTg5RUQxNjc3RUMxRjg5IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjYzMkQwNUM3RDgxQzExRTU5RTg5RUQxNjc3RUMxRjg5Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjMyRDA1QzREODFDMTFFNTlFODlFRDE2NzdFQzFGODkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NjMyRDA1QzVEODFDMTFFNTlFODlFRDE2NzdFQzFGODkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/4gxYSUNDX1BST0ZJTEUAAQEAAAxITGlubwIQAABtbnRy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" alt="true" class="con-login-image"></div></div></div></div><div class="videoDiv row"><div class="col-xs-12"><div class="introvideo"><div class="_13nyE videoView"><video class="_2jFFg" autoplay="" loop="" poster="http://sourceposter.jpg"><source src="/static/media/resume-pro.a5011dfa.mp4" type="video/mp4"></video><div class="ve_Cq "></div></div><div class="videoOverlay"></div></div></div></div></div></div></div>
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
+  <script type="text/javascript" src="./React App_files/bundle.js"></script>
+
+</body></html>

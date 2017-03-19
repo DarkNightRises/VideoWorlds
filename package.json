@@ -8,7 +8,6 @@
     "react-cellblock": "^2.0.0",
     "react-dom": "^15.4.2",
     "react-jwplayer": "^0.3.2",
-    "react-player": "^0.14.3",
     "react-router": "^2.0.0"
   },
   "devDependencies": {

@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import ReactPlayer from 'react-player';
 import { DefaultPlayer as Video } from 'react-html5video';
 import 'react-html5video/dist/styles.css';
 const sintelTrailer = 'https://download.blender.org/durian/trailer/sintel_trailer-720p.mp4';

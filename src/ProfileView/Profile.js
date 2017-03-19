@@ -4,6 +4,7 @@ import logo from './Images/shrofile-logo-white.png';
 import './CSS/styles.css';
 import proImage from './Images/pro3.jpg';
 import BodyItems from './BodyItems';
+
 class Profile extends Component{
 	constructor(props){
 		super(props);
@@ -41,7 +42,7 @@ class Profile extends Component{
 		<img src={proImage} alt className="con-login-image"/>
 		</div>
 		var loginPanel = <div className="col-xs-8 col-sm-4 col-md-4 col-lg-3">
-		<div class="loginDiv">
+		<div className="loginDiv">
 		{messages}
 		{notification}
 		{loginProfileDiv}
@@ -50,7 +51,7 @@ class Profile extends Component{
 
 
 		return (<div><Header items={titleItems} loginPanel={loginPanel}/>
-			</div>
+			<BodyItems /></div>
 			);
 	}
 }
