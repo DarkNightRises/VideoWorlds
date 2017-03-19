@@ -18,6 +18,7 @@
 		margin: 10px auto 10px auto;
 		position: relative;
 }
+
 .searchInput {
     width: 100%;
     margin: 0 auto;
@@ -102,17 +103,19 @@
 
 .videoDiv {
     width: 100%;
-    height: 100%;
+    height: 240px;
     margin-top: 50px;
     position: relative;
     display: block;
 }
 .introvideo {
-        width: 100%;
+    width: 87%;
     height: 260px;
     background: #fff;
     overflow: hidden;
     position: absolute;
+    margin-left: 80px;
+    margin-right: 15px;
 }
 .videoView {
     position: absolute;
@@ -123,6 +126,7 @@
     height: auto;
     z-index: 8;
     transform: translate(-10%, -10%);
+    display: block;
 }
 .videoOverlay {
    position: absolute;
@@ -200,3 +204,142 @@
     -moz-user-select: none;
     -webkit-user-select: none;
 }
+.timeLine {
+    display: block;
+        width: 100%;
+    margin: 30px 0px 10px 0px;
+}
+.top-intro {
+    width: 100%;
+    height: 100%;
+    background: white;
+    float: left;
+}
+.pro-profile {
+    width: 100%;
+    padding: 10px;
+}
+.pro-profile .top-photo img {
+    width: 72px;
+    height: 72px;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 0px 2px #ea212e;
+    display: block;
+    margin: 0;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -36px;
+    top: -46px;
+    z-index: 103;
+    vertical-align: middle;
+}
+ .pro-profile .top-photo {
+    background: #fff;
+    padding: 30px 0px 5px 0px;
+    margin: 0px;
+    position: relative;
+
+}
+.intro{
+        width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: block;
+    clear: both;
+}
+.pro-name{
+        width: 100%;
+    display: block;
+    color: #ea212e;
+    padding: 8px 0px 0px 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.pro-profile .top-photo > small {
+    width: 100%;
+    display: block;
+    color: #333;
+    padding: 10px 0px 0px 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+.pro-profile .top-photo > span {
+    width: 100%;
+    display: block;
+    color: #ccc;
+    padding: 0px 0px 0px 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+.pro-list{
+    list-style: none;
+    display: block;
+    width: 80%;
+    height: 60px;
+    padding: 0;
+    margin: 0 auto 10px auto;
+    padding-left: 0 !important;
+}
+.pro-list-elem{
+    width: 33.33%;
+    display: table;
+    float: left;
+    list-style: none;
+        font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.pro-list-elem-span{
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    line-height: 16px;
+}
+.pro-list-elem-anchor{
+    display: table-cell;
+    width: 100%;
+    height: 60px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #999;
+    line-height: 100%;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #e8e8e8;
+    border-width: 1px 0px 1px 1px;
+    background: #f8f8f8;
+}
+
+.lgttext {
+width: 100%;
+text-align: center;
+}
+
+
+
+
+
+
+
