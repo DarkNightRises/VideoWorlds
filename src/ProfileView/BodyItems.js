@@ -17,6 +17,12 @@ class BodyItems extends Component{
 		var shotsDays = ["2 days ago","27 Mar.","12 Feb"];
 		var shotsImages = [shots_pic,shots_pic_next,shots_pic];
 		var tabsTitles=["INTRO","SHOTS","IDENTITY"]; 
+		var titlePosts = ["INTRO","QUOTES","QUOTES"];
+		var timePosts = ["2 hrs ago","2 hrs ago","3 days ago"];
+		var isVideoPosts = [true,false,false];
+		var postComments = ["26 comments","26 comments","26 comments"];
+		var postLikes = ["48 Like","48 Like","48 Like"];
+
 		var videoIconsDiv = <div className="videoDivIcons">
 		<div className="row">
 		<div className="col-xs-12 col-sm-7" />
@@ -117,6 +123,7 @@ class BodyItems extends Component{
 		</div>
 		{tabsDiv}
 		<ClearFix />
+		
 		</div>
 
 
@@ -179,5 +186,37 @@ function Tabs(props){
 function ClearFix(){
 	return <div className="clearfix"></div>
 }
+
+function GetPosts(props){
+	var titles=props.titles;
+	var time = props.times;
+	var comments = props.comments;
+	var likes = props.likes;
+	return <div className="tile-wrap">
+	<div className="top-title-wrap"></div>
+	<div className="tile-video">
+	<div className="videowrap">
+	<Video autoPlay loop muted
+            controls={[]}
+            poster="http://sourceposter.jpg"
+            className="tilescreen"
+            >
+            <source src={resumevideo} type="video/mp4"/>
+        </Video>
+	</div>
+	<div className="video-tile-overlay">&nbsp</div>
+	<h3 className="tile-video-h3">
+	<span className="tile-video-h3-span">{comments[0]}</span>
+	"Shweta"
+	</h3>
+	<div className="introtime">{time[0]}</div>
+	</div>
+	<div className="tile-info-box">
+	            <span className="pull-left text-left">{comments[0]}</span>
+                        <span className	="pull-right text-right">{likes[0]}</span>
+	</div>
+	</div>
+}
+
 
 export default BodyItems;

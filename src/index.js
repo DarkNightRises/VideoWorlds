@@ -17,9 +17,8 @@ const appHistory = createMemoryHistory();
 ReactDOM.render(
 <div>
 <Router history={hashHistory}>
-
-    <Route path="/" component={Profile}/>
-<Route  path="/video" component={VideoView} /> 
+<Route path="/" component={VideoView}/>
+<Route  path="/profile/:id" component={Profile} /> 
 </Router>
 </div>,document.getElementById('root')
 );

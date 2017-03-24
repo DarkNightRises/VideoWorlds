@@ -8,7 +8,8 @@ import BodyItems from './BodyItems';
 class Profile extends Component{
 	constructor(props){
 		super(props);
-	
+		// const {userId} = this.props.params.id;
+		console.log("In user "+props.routeParams.id);
 	}
 	render(){
 //Header Items
